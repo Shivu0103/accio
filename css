@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#counter-container {
+    display: flex;
+    align-items: center;
+}
+
+#count {
+    margin: 0 20px;
+    font-size: 2em;
+}
+
+#error-message {
+    color: red;
+    visibility: hidden;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#clear {
+    display: none;
+    margin-top: 10px;
+}
